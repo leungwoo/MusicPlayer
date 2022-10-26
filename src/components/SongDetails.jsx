@@ -27,8 +27,7 @@ const SongDetails = () => {
       </Typography>
     );
   }
-  console.log(songData);
-  console.log(trackData);
+
   return (
     <div>
 

@@ -2,10 +2,8 @@ import React from 'react';
 import { List, ListItem, ListItemIcon, ListItemText, ListSubheader, Divider, Box } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { useTheme } from '@mui/material/styles';
-import { useDispatch } from 'react-redux';
 
-import { selectGenre } from '../features/currentGenre';
-import { images, logoLight, logoDark } from '../assets';
+import { logoLight, logoDark } from '../assets';
 import genreIcons from '../assets/genres';
 
 const categories = [
@@ -13,11 +11,6 @@ const categories = [
   { label: 'Song', to: '/albums', value: 'album' },
   { label: 'Artist', to: '/artists/:artistId', value: 'artist' },
   { label: 'Country', to: '/country', value: 'country' },
-];
-
-const genre = [
-  { label: 'Pop', value: 'POP' },
-  { label: 'Dance', value: 'DANCE' },
 ];
 
 const Sidebar = () => {

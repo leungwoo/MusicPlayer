@@ -6,7 +6,6 @@ import Loader from './Loader';
 
 const Albums = () => {
   const { data: songData, isFetching, error } = useGetWorldChartsQuery();
-  console.log(songData);
 
   if (isFetching) {
     return (
