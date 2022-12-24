@@ -8,6 +8,7 @@ Music Universe is a music application that allows users to view and listen to so
 
 This application is built using many in-demand technologies, including React.js for client side, Redux Toolkit for managing application state, and Tailwind for rapid UI development. The application also utilizes the Shazam API to provide music recognition and discovery functionality. These technologies were carefully chosen to provide music lovers with a reliable and user-friendly experience.
 
+- **React.js** is a JavaScript library for building user interfaces. It allows developers to create reusable components that can be easily composed to build complex applications.
 - **[Redux Toolkit](https://redux-toolkit.js.org/)** - Redux Toolkit is a set of opinionated libraries and utilities for building Redux applications. It provides a simple and easy-to-use API for managing application state, as well as many other helpful utilities and features.
 - **[Tailwind](https://tailwindcss.com/)** - Tailwind is a utility-first CSS framework for rapidly building custom designs. It provides a set of low-level utility classes that can be combined to create complex, responsive layouts, and user interfaces.
 - **[Shazam API](https://rapidapi.com/tipsters/api/shazam-core/)** - The Shazam API is an API for accessing music recognition and discovery services. It allows developers to integrate Shazam's music recognition technology into their own applications and build new music-related experiences.
